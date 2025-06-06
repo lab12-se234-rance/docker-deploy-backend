@@ -6,10 +6,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 
 @SpringBootTest
-public class Lab10ApplicationTests {
+class Lab10ApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 	}
 
 }

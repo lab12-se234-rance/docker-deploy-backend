@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-public class GradeServiceImplTest {
+class GradeServiceImplTest {
     @Test
-    public void testGetGrade(){
+    void testGetGrade(){
         GradeServiceImpl gradeService = new GradeServiceImpl();
         assertThat(gradeService.getGrade(100),is("A"));
         assertThat(gradeService.getGrade(79),is("A"));
